@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38ff3ff5-6fc7-494d-a29c-b3f8aeb5b698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/EasyExcelApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/config/AsyncPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/controller/EasyExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/entity/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/listener/ImportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/mapper/EasyExcelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/service/EasyExcelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/service/impl/EasyExcelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/utils/DataSourceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/utils/DynamicDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/utils/JDBCDruidUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rectorlee/utils/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/top/rectorlee/mapper/EasyExcelMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/top/rectorlee/listener/UploadDataListener.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2PfvebCwxMDfzMRjRKwRATlxXX5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/code/Spring Boot/Easy-Excel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "b8c08dee6842e97640a613f0f43fec06",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\Spring Boot\Easy-Excel\src\main\resources\top\rectorlee\mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EasyExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Easy-Excel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.rectorlee.EasyExcelApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.rectorlee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EasyExcelApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38ff3ff5-6fc7-494d-a29c-b3f8aeb5b698" name="Changes" comment="" />
+      <created>1683861046902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683861046902</updated>
+      <workItem from="1683861048115" duration="3080000" />
+      <workItem from="1690178396276" duration="226000" />
+      <workItem from="1690178679627" duration="1072000" />
+      <workItem from="1690180158180" duration="813000" />
+      <workItem from="1690181011968" duration="13194000" />
+      <workItem from="1690194520606" duration="6000" />
+      <workItem from="1690194665966" duration="30000" />
+      <workItem from="1690194785991" duration="70000" />
+      <workItem from="1690194868022" duration="89000" />
+      <workItem from="1690195000444" duration="19000" />
+      <workItem from="1690195035992" duration="16613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="top.rectorlee.mapper.EasyExcelMapper">
+    <select id="selectByPageSizeAndPageIndex" resultType="top.rectorlee.entity.Area">
+        select * from area limit #{pageIndex}, #{pageSize};
+    </select>
+
+    <select id="selectCount" resultType="integer">
+        select count(1) from area;
+    </select>
+
+    <insert id="save" parameterType="list">
+        insert into area(name, phone, address, date, remark) values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.name}, #{item.phone}, #{item.address}, #{item.date}, #{item.remark})
+        </foreach>
+    </insert>
+</mapper>
